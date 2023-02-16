@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function Click1() {
+            // function
+
+            var Month = prompt("what is your month of birth?:"); // ask for user's month of birth
+            var User = prompt("Whats  your  year  of  birth:"); // ask for user's month of birth'
+
+            confirm(b + "__your  age  is:__" + (2018 - User));
+        }
+    </script>
+    <script type="text/javascript">
+        function validation() {
+            // calculation function
+            var Name = document.getElementById("name").value;
+            var Age = document.getElementById("age").value;
+            alert(2023 - Age + "_Years  Old");
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Good coders code, great coders reuse." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-index.css" /> -->
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="top">
+            <div id="logo">
+                <a href="https://go237.com"><img src="images/logo.png" alt="comic.browserling.com logo" title="Tools For All" /></a>
+            </div>
+            <div id="logo-text"></div>
+        </div>
+    </div>
+    <div id="body">
+        <h1>Coders</h1>
+
+        <div id="text">
+            Good coders code, great coders reuse.
+        </div>
+        <hr />
+        <form>
+            <input type="text" id="name" required placeholder="Name" />
+            <br />
+            <br />
+            <input type="number" id="age" required placeholder="Year Of Birth" />
+            <br />
+            <br />
+            <input type="text" id="color" required placeholder="Month" />
+            <br />
+            <br />
+            <br />
+
+            <img id="pic" src="1.gif" width="30%" />
+            <br />
+            <br />
+
+            <button onclick="validation();">Calculate!</button>
+        </form>
+        <hr />
+    </div>
+</body>
+
+</html>
